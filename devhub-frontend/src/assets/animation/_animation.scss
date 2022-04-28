@@ -1,0 +1,142 @@
+// Animation
+
+.animation-enter {
+  position: absolute;
+  transform: translateX(500px);
+  opacity: 0;
+
+  &.animation-enter-active {
+    opacity: 1;
+    transform: translateX(0);
+    transition: all 500ms ease-in-out;
+  }
+}
+
+.animation-exit {
+  position: absolute;
+  transform: translateX(0px);
+  opacity: 1;
+
+  &.animation-exit-active {
+    transform: translateX(-500px);
+    opacity: 0;
+    transition: all 500ms ease-in-out;
+  }
+}
+
+//Animation jumbotron
+
+.animation-jumbotron-enter {
+  position: absolute;
+  transform: translateY(-500px);
+  opacity: 0;
+
+  &.animation-jumbotron-enter-active {
+    opacity: 1;
+    transform: translateY(0);
+    transition: all 400ms ease-in-out;
+  }
+}
+
+.animation-jumbotron-exit {
+  position: absolute;
+  transform: translateY(0px);
+  opacity: 1;
+
+  &.animation-jumbotron-exit-active {
+    transform: translateY(-500px);
+    opacity: 0.9;
+    transition: all 400ms ease-in-out;
+  }
+}
+
+//Fade
+.fade-enter {
+  opacity: 0;
+
+  &.fade-enter-active {
+    opacity: 1;
+    transform: translateX(0);
+    transition: all 0.4s linear;
+  }
+}
+
+.fade-exit {
+  opacity: 1;
+  &.fade-exit-active {
+    opacity: 0;
+    transition: all 0.4s linear;
+  }
+}
+
+//Slider
+
+.slide-enter {
+  opacity: 0;
+  transform: scale(0.9);
+  &.slide-enter-active {
+    opacity: 1;
+    transform: translateX(0);
+    transition: all 200ms;
+  }
+}
+
+.slide-exit {
+  opacity: 1;
+  &.slide-exit.slide-exit-active {
+    opacity: 0;
+    transform: scale(0.9);
+    transition: opacity 200ms, transform 200ms;
+  }
+}
+
+//fade-down
+
+.fade-down-enter {
+  &.fade-down-enter-active {
+  }
+}
+
+//width
+
+.width-enter {
+  right: 0;
+  width: 0;
+  max-height: 0;
+  color: transparent;
+
+  &.width-enter-active {
+    width: 200px;
+
+    transition: all 300ms;
+  }
+}
+
+.width-exit {
+  width: 200px;
+  right: 0;
+  transition: all 300ms;
+  &.width-exit-active {
+    width: 0;
+    color: transparent;
+  }
+}
+
+.hidden-enter {
+  max-height: 0;
+
+  &.hidden-enter-active {
+    max-height: 16em;
+    overflow: hidden;
+    transition: all 100ms ease-in-out;
+  }
+}
+
+.hidden-exit {
+  max-height: 16em;
+  overflow: hidden;
+  &.hidden-exit-active {
+    max-height: 0;
+    transition: all 100ms ease-in-out;
+  }
+}

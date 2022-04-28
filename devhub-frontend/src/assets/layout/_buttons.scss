@@ -1,0 +1,23 @@
+.button-group {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.avatar-button-repository {
+  width: 50px;
+  height: 50px;
+  text-decoration: none;
+  display: grid;
+  color: $text-color;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  border-radius: 5px;
+  border: 0.5px #b1840073 solid;
+  font-size: 19px;
+  margin-right: 10px;
+}
+
+.button-settings {
+  background-color: rgba(0, 0, 0, 0.04) !important;
+}

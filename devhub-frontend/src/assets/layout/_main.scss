@@ -1,0 +1,27 @@
+.main {
+  position: relative;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.main-container {
+  padding: 0 25px;
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: $font-size-body;
+}
+
+.main-container.active {
+  padding-top: 30px;
+  margin-top: $height-header;
+  margin-bottom: $height-header;
+}
+
+.main-container.limit {
+  max-width: 990px;
+}
+
+.main-container.position {
+  position: relative;
+}

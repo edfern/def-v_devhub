@@ -1,0 +1,166 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="300" height="90" viewBox="0 0 300 90">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-devhub-logo);
+      }
+
+      .cls-2, .cls-3, .cls-4 {
+        fill: none;
+        stroke-width: 4px;
+      }
+
+      .cls-2 {
+        stroke: #1b98e0;
+      }
+
+      .cls-2, .cls-3 {
+        stroke-linecap: round;
+      }
+
+      .cls-3, .cls-4 {
+        stroke: #fff;
+      }
+
+      .cls-4 {
+        stroke-linecap: square;
+      }
+
+      .cls-5 {
+        fill: #fff;
+      }
+
+      .cls-6, .cls-7 {
+        fill: #1b98e0;
+      }
+
+      .cls-7 {
+        font-size: 48px;
+        font-family: SegoeUI, Segoe UI;
+      }
+
+      .cls-8 {
+        filter: url(#DevHub);
+      }
+
+      .cls-9 {
+        filter: url(#Ellipse_3);
+      }
+
+      .cls-10 {
+        filter: url(#Elipse_2);
+      }
+
+      .cls-11 {
+        filter: url(#Línea_4);
+      }
+
+      .cls-12 {
+        filter: url(#Línea_3);
+      }
+
+      .cls-13 {
+        filter: url(#Línea_2);
+      }
+
+      .cls-14 {
+        filter: url(#Trazado_1);
+      }
+
+      .cls-15 {
+        filter: url(#Línea_1);
+      }
+    </style>
+    <filter id="Línea_1" x="1.591" y="46.31" width="73.909" height="16" filterUnits="userSpaceOnUse">
+      <feOffset dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feFlood flood-opacity="0.478"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Trazado_1" x="222.529" y="46.31" width="77.558" height="16" filterUnits="userSpaceOnUse">
+      <feOffset dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2" result="blur-2"/>
+      <feFlood flood-opacity="0.478"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Línea_2" x="81.584" y="41.31" width="29.916" height="22" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-3"/>
+      <feFlood flood-opacity="0.478"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Línea_3" x="107.121" y="41.31" width="30.379" height="22" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-4"/>
+      <feFlood flood-opacity="0.478"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Línea_4" x="128.5" y="41.31" width="32.541" height="22" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-5"/>
+      <feFlood flood-opacity="0.478"/>
+      <feComposite operator="in" in2="blur-5"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Elipse_2" x="283.294" y="45.517" width="17.586" height="17.586" filterUnits="userSpaceOnUse">
+      <feOffset dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2" result="blur-6"/>
+      <feFlood flood-opacity="0.478"/>
+      <feComposite operator="in" in2="blur-6"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Ellipse_3" x="0" y="45.517" width="17.586" height="17.586" filterUnits="userSpaceOnUse">
+      <feOffset dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2" result="blur-7"/>
+      <feFlood flood-opacity="0.478"/>
+      <feComposite operator="in" in2="blur-7"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="DevHub" x="56.659" y="12" width="184" height="76" filterUnits="userSpaceOnUse">
+      <feOffset dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2" result="blur-8"/>
+      <feFlood flood-opacity="0.478"/>
+      <feComposite operator="in" in2="blur-8"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-devhub-logo">
+      <rect width="300" height="90"/>
+    </clipPath>
+  </defs>
+  <g id="devhub-logo" class="cls-1">
+    <g id="Componente_1_1" data-name="Componente 1 – 1" transform="translate(6 46.517)">
+      <g class="cls-15" transform="matrix(1, 0, 0, 1, -6, -46.52)">
+        <line id="Línea_1-2" data-name="Línea 1" class="cls-2" x2="57.909" transform="translate(9.59 49.31)"/>
+      </g>
+      <g id="Grupo_1" data-name="Grupo 1" transform="translate(-6 -46.517)">
+        <g class="cls-14" transform="matrix(1, 0, 0, 1, 0, 0)">
+          <path id="Trazado_1-2" data-name="Trazado 1" class="cls-3" d="M0,0H61.558" transform="translate(230.53 49.31)"/>
+        </g>
+      </g>
+      <g class="cls-13" transform="matrix(1, 0, 0, 1, -6, -46.52)">
+        <line id="Línea_2-2" data-name="Línea 2" class="cls-2" x2="7.916" transform="translate(92.58 49.31)"/>
+      </g>
+      <g class="cls-12" transform="matrix(1, 0, 0, 1, -6, -46.52)">
+        <line id="Línea_3-2" data-name="Línea 3" class="cls-2" x2="8.379" transform="translate(118.12 49.31)"/>
+      </g>
+      <g class="cls-11" transform="matrix(1, 0, 0, 1, -6, -46.52)">
+        <line id="Línea_4-2" data-name="Línea 4" class="cls-2" x2="10.541" transform="translate(139.5 49.31)"/>
+      </g>
+      <line id="Línea_6" data-name="Línea 6" class="cls-4" x2="6.588" transform="translate(195.912 2.793)"/>
+      <g class="cls-10" transform="matrix(1, 0, 0, 1, -6, -46.52)">
+        <circle id="Elipse_2-2" data-name="Elipse 2" class="cls-5" cx="2.793" cy="2.793" r="2.793" transform="translate(289.29 46.52)"/>
+      </g>
+      <g class="cls-9" transform="matrix(1, 0, 0, 1, -6, -46.52)">
+        <circle id="Ellipse_3-2" data-name="Ellipse 3" class="cls-6" cx="2.793" cy="2.793" r="2.793" transform="translate(6 46.52)"/>
+      </g>
+      <g class="cls-8" transform="matrix(1, 0, 0, 1, -6, -46.52)">
+        <text id="DevHub-2" data-name="DevHub" class="cls-7" transform="translate(62.66 65)"><tspan x="0" y="0">Dev</tspan><tspan class="cls-5" y="0">Hub</tspan></text>
+      </g>
+      <line id="Línea_5" data-name="Línea 5" class="cls-3" x2="8.518" transform="translate(167.982 2.793)"/>
+    </g>
+  </g>
+</svg>

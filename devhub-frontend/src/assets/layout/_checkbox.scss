@@ -1,0 +1,19 @@
+.ckeckbox-icon {
+  .checkbox-body {
+    display: flex;
+    align-items: baseline;
+  }
+  .checkbox-info {
+    .label-icon {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+    }
+    .checkbox-label {
+    }
+    .checkbox-description {
+      display: block;
+      padding: 0 25px;
+    }
+  }
+}

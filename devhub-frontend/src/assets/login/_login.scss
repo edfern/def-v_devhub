@@ -1,0 +1,37 @@
+// Login-start
+
+.layout-start {
+  height: 100vh;
+
+  .description {
+    font-size: 9pt;
+    text-align: center;
+    margin: 0 15px;
+    display: block;
+  }
+  .form-group {
+    margin-top: 30px;
+    padding: 15px;
+  }
+  .main-login-body {
+    position: relative;
+    margin: 20px 45px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    min-height: 350px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+  .main-login-footer {
+    font-size: 5pt;
+    height: 50px;
+    text-align: center;
+  }
+  &.layout-start,
+  .main-login-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

@@ -1,0 +1,190 @@
+.info-new-repositorie {
+  .info-body > video {
+    height: 200px;
+    width: 200px;
+  }
+  .info-body span {
+    display: block;
+    font-size: $font-size-title;
+    font-weight: 600;
+    line-height: 1.2;
+    padding: 10px 0;
+  }
+}
+
+.body-new-repositorie {
+  .new-repositorie-header {
+    font-size: 0.75rem;
+    line-height: 2rem;
+    display: flex;
+    padding: 5px 0;
+    border-bottom: 0.01px #c3c3c3 solid;
+    ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      svg {
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+      }
+    }
+  }
+}
+
+.item-repositorie {
+  border-bottom: 0.5px $border-color solid;
+  padding: 10px 5px;
+  font-size: $font-size-body;
+  line-height: 1.5;
+  .item-info {
+    display: flex;
+    align-items: center;
+    .item-description {
+      position: relative;
+      .title {
+        text-decoration: none;
+        color: $text-color;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+      i {
+        position: absolute;
+        top: 0;
+      }
+      i > svg {
+        margin-left: 0.5rem;
+        font-size: 18px;
+      }
+    }
+  }
+}
+
+.item-repositorie-date {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.repository-header {
+  .info {
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+    justify-content: space-between;
+    .info-left {
+      display: flex;
+    }
+    .info-right {
+      position: relative;
+    }
+  }
+  .description {
+    padding-bottom: 10px;
+  }
+}
+
+.repository-body {
+  margin: 15px 0;
+  .owner-info {
+    margin-left: 10px;
+  }
+}
+
+.repository-action {
+  margin: 15px 0;
+}
+
+.drodzone {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border-width: 2;
+  border-radius: 2;
+  border-color: #eeeeee;
+  border-style: dashed;
+  background-color: #fafafa;
+  color: #bdbdbd;
+  outline: none;
+  transition: border 0.24s ease-in-out;
+  min-height: 100px;
+  justify-content: center;
+  cursor: pointer;
+
+  img {
+    width: 100px;
+    height: 100px;
+  }
+  &:hover {
+    border-color: #0a4769;
+  }
+}
+
+.drodzone-container {
+  padding: 15px;
+  border: 0.1px #70707024 solid;
+  transform: all 200ms;
+}
+
+//Files
+
+.item-file {
+  margin: 10px 0;
+  list-style: none;
+  height: 25px;
+  background-color: #fafafa;
+  border-radius: 5px;
+  padding: 0 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: rgb(0 0 0 / 18%) 0px 0.063rem 0.1rem 0px;
+
+  .file-info {
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    .file-path {
+      font-size: 15px;
+      color: #0a4769;
+    }
+  }
+
+  .file-close {
+    cursor: pointer;
+    &:hover {
+      color: red;
+    }
+  }
+
+  &:hover {
+    box-shadow: rgb(0 0 0 / 40%) 0px 0.063rem 0.1rem 0px;
+  }
+}
+
+.repository-files {
+  min-height: 250px;
+  padding: 10px 0px;
+
+  border: 0.1px $border-color solid;
+  border-radius: 5px;
+
+  .item {
+    padding: 5px 15px;
+
+    display: flex;
+    justify-content: space-between;
+
+    &:hover {
+      background-color: #0a4769;
+      color: #fff;
+      cursor: pointer;
+    }
+  }
+  &:hover {
+    box-shadow: rgb(0 0 0 / 40%) 0px 0.063rem 0.1rem 0px;
+  }
+}

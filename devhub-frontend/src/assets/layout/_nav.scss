@@ -1,0 +1,14 @@
+.nav-back {
+  position: absolute;
+  .icon {
+    display: flex;
+    cursor: pointer;
+    width: max-content;
+    left: 0;
+    transform: translateX(-120px);
+
+    &:hover {
+      color: $secondary;
+    }
+  }
+}

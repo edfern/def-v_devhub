@@ -1,0 +1,50 @@
+/* MAIN LOGIN*/
+
+.main-login{
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.bubble-one{
+    top: -157px;
+    left: -162px;
+    position: absolute;
+    width: 528px;
+    height: 507px;
+    border-radius: 50%;
+    background: #1B98E0;
+}
+
+.bubble-two{
+    top:235px;
+    left: 634px;
+    position: absolute;
+    width: 442px;
+    height: 442px;
+    border-radius: 50%;
+    background: #0882BD;
+}
+
+.bubble-three{
+    top:528px;
+    left: 1200px;
+    position: absolute;
+    display: flexbox;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    background: #006494;
+    
+}
+
+.bubble-four{
+    top:488px;
+    left: 189px;
+    position: absolute;
+    width: 116px;
+    height: 116px;
+    border-radius: 50%;
+    background: #247BA0;
+}
+

@@ -1,0 +1,11 @@
+.spinner-loading {
+  width: 100%;
+  min-height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.spinner-loading._small {
+  min-height: 50px;
+}

@@ -1,0 +1,137 @@
+.header {
+  display: flex;
+  width: 100%;
+  min-height: $height-header;
+  height: $height-header;
+  background-color: $dark;
+  color: $white;
+  position: fixed;
+  z-index: 3;
+
+  .nav-left {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 50px;
+    .logo {
+      width: max-content;
+      height: calc($height-header - 20px);
+
+      .logo-container {
+        padding: 0;
+        width: inherit;
+        height: inherit;
+      }
+      .logo-img {
+        width: 100%;
+        height: 100%;
+        padding-right: 25px;
+        cursor: pointer;
+      }
+    }
+  }
+
+  .nav-right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 20px;
+  }
+}
+
+.nav-left,
+.nav-right {
+  width: calc(100% - 50%);
+}
+
+// Submenu button avatar
+
+.nav-right-modal {
+  min-width: 150px;
+  .settings-header,
+  .settings-body,
+  .settings-footer {
+    cursor: pointer;
+  }
+  .settings-header,
+  .settings-footer > span,
+  strong {
+    display: block;
+  }
+  span,
+  strong {
+    padding: 0px 15px;
+  }
+
+  & > a {
+    display: block !important;
+  }
+  .settings-header {
+    padding: 10px 0;
+    border-bottom: 0.5px #70707045 solid;
+
+    &:hover {
+      background-color: $color-hover;
+    }
+  }
+
+  .settings-body {
+    border-bottom: 0.5px #70707045 solid;
+    span {
+      display: block;
+      padding: 5px 15px;
+      &:hover {
+        background-color: $color-hover;
+      }
+    }
+  }
+  .settings-footer {
+    padding: 10px 0;
+
+    &:hover {
+      background-color: $color-hover;
+    }
+  }
+}
+
+// Submenu button menu
+.submenu-modal {
+  position: relative;
+  font-size: $font-size-body;
+  & > div {
+    padding: 10px 5px;
+    position: fixed;
+    z-index: 2;
+    top: $height-header;
+    justify-content: left;
+    display: flex;
+    ul {
+      list-style: none;
+    }
+    li {
+      padding: 5px 30px;
+      &:hover {
+        background-color: $color-hover;
+        border-radius: 5px;
+      }
+    }
+    a {
+      color: rgba(0, 0, 0, 0.87);
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      svg {
+        margin-right: 10px;
+        font-size: inherit;
+      }
+    }
+  }
+}
+
+//Active button
+
+.button-active {
+  color: #0a4769 !important;
+  background-color: $white !important;
+}

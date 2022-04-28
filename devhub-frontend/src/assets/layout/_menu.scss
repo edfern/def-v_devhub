@@ -1,0 +1,31 @@
+.submenu {
+  padding: 15px 0;
+  min-width: 200px;
+}
+
+.menu-options {
+  position: absolute;
+  right: 0;
+  & > div {
+    background-color: #fafafa;
+  }
+  ul {
+    list-style: none;
+    a {
+      text-decoration: none;
+      li {
+        display: flex;
+        align-items: center;
+        padding: 3px 10px;
+        color: $color-font-menu;
+        & > svg {
+          margin-right: 10px;
+          font-size: inherit;
+        }
+        &:hover {
+          background-color: $color-hover;
+        }
+      }
+    }
+  }
+}

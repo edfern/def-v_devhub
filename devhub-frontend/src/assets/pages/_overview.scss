@@ -1,0 +1,47 @@
+.grid-section {
+  padding: 25px 25px 10px 0;
+  border-bottom: 0.01px #c3c3c3 solid;
+  .grid-section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .section-title {
+      font-size: $font-size-title;
+      font-weight: 600;
+      line-height: 1.2;
+      color: black;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    & a span {
+      color: $primary;
+    }
+  }
+}
+
+.grid-body {
+  min-height: 300px;
+}
+
+.grid-body.empty {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .grid-empty {
+    text-align: center;
+  }
+
+  & video {
+    height: 100px;
+    width: 100px;
+  }
+
+  & span {
+    display: block;
+  }
+}

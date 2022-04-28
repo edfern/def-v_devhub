@@ -1,0 +1,78 @@
+// Info user
+
+// Profile
+
+.jumbotron {
+  background-color: $secondary;
+  width: 100%;
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-top: $height-header;
+  z-index: 1;
+
+  .info-user {
+    .info-header {
+      display: grid;
+      justify-content: center;
+      align-items: center;
+      justify-items: center;
+      .info-name {
+        font-size: 50px;
+        color: $white;
+      }
+    }
+    .info-body {
+      padding: 20px 0;
+      font-size: 18px;
+      text-align: center;
+      .info-body-date,
+      .info-body-location {
+        display: block;
+      }
+    }
+
+    .info-footer {
+      display: inherit;
+      .info-nav nav {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        ul {
+          display: flex;
+          list-style: none;
+        }
+        li button {
+          border-radius: 0;
+          padding: 10px;
+          background-color: $secondary;
+          transition: all 0.3s ease-in-out;
+          &:hover {
+            box-shadow: none;
+            background-color: $white;
+          }
+          &:hover a {
+            color: $secondary;
+          }
+        }
+        a {
+          color: $white;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
+
+//Active class
+
+.active-link {
+  border-top: 5px $white solid;
+}
